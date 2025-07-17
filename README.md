@@ -21,11 +21,12 @@ This project performs simple image compositing and artifact-based color correcti
 ## Features
 
 - Load PNG images (foreground, background, artifact)
-![artifact Example](result/artifacts/my_wall.png)
+
+![artifact Example](result/artifacts/artifact_tolerance.png)
 *artifact Example*
 - Apply artifact-based color correction (RGB offset)
 - Generate alpha matte from artifact image with    user specified tolerance 
-![tolerance map](result/foreground/me.png)
+![tolerance map](result/artifacts/my_wall.png)
 *example map of tolerance = 30, if unspesified tolerance = 0*  
 - Composite foreground over background using the matte
 - Save the final blended image
