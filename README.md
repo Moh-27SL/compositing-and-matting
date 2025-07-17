@@ -63,6 +63,7 @@ This project performs simple image compositing and artifact-based color correcti
 
 ---
 
-*Developed by Mohammed Yasser Mohammed*  
+*Developed by Mohammed Yasser Mohammed* 
+*email : es-mohamed.yasser2027@alexu.edu.eg* 
 
 
