@@ -26,12 +26,12 @@ This project performs simple image compositing and artifact-based color correcti
 - Composite foreground over background using the matte
 - Save the final blended image
 
-*artifact Example*
+*artifact Example (the wall behind the robot)*
 
 ![artifact Example](result/artifacts/my_wall.png)
 
-![tolerance map](result/artifacts/artifact_tolerance.png)
 *example map of tolerance = 30, if unspesified tolerance = 0*  
+![tolerance map](result/artifacts/artifact_tolerance.png)
 
 ## Dependencies
 
