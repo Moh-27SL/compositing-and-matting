@@ -3,20 +3,34 @@
 This project performs simple image compositing and artifact-based color correction using C++. It uses PNG input images to isolate and blend foreground and background regions, applying alpha matting logic for compositing.
 
 ## Example Output
+*foreground*
+
 ![THATS ME!! (foreground)](result/foreground/me.png)
-*foreground*\
+
 -->
+
+*alpha \* foreground*
+
 ![after artifact removal](result/foreground/foreground.png)
-*alpha \* foreground*\
+
 -->
+
+*background*
+
 ![background](result/background/nature.png)
-*background*\
+
 -->
+
+*(1-alpha) \* background*
+
 ![background after applying alphaM matte map](result/background/background.png)
-*(1-alpha) \* background*\
+
 -->
-![result](result/result.png)
+
 *(1-alpha) \* background + alpha \* foreground*
+
+![result](result/result.png)
+
 
 ## Features
 
